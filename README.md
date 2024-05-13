@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Soy un apasionado por la tecnología y la programación, actualmente estoy cursando la carrera de Analisis de Sistemas informáticos, he recibido el titulo de Técnico Superior Programador de Computadoras en el año 2022. Mi ambición es progresar en el ámbito de la tecnología de la información, aportando como desarrollador frontend o backend.</p>
+<p align="left">Soy un apasionado por la tecnología y la programación, actualmente estoy cursando el último año de la carrera de licenciatura en Análisis de Sistemas informáticos, he recibido el titulo de Técnico Superior Programador de Computadoras en el año 2022. Mi ambición es progresar en el ámbito de la tecnología de la información, aportando como desarrollador frontend o backend.</p>
 
 ###
 
