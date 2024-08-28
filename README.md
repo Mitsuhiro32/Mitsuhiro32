@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Soy un apasionado por la tecnología y la programación, actualmente estoy cursando el último año de la carrera de licenciatura en Análisis de Sistemas informáticos, he recibido el titulo de Técnico Superior Programador de Computadoras en el año 2022. Mi ambición es progresar en el ámbito de la tecnología de la información, aportando como desarrollador full stack.</p>
+<p align="left">Licenciado en Análisis de Sistemas Informáticos y Desarrollador Full Stack con conocimiento en HTML, CSS, JS, PHP, SQL, Laravel, React, Express, NodeJS, MySQL, PostgreSQL, MongoDB, Git y GitHub. Cuento con capacidad para trabajar en equipo , empatía, adaptabilidad y resolución de problemas. Actualmente me encuentro interesado en continuar desarrollando mi carrera dentro del área IT, busco poner en práctica mi conocimiento como desarrollador.</p>
 
 ###
 
@@ -56,9 +56,6 @@
   </a>
   <a href="https://www.instagram.com/mitsuhiro_eiwa/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="https://twitter.com/EiwaMitsuhiro" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
   </a>
 </div>
 
