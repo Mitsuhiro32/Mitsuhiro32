@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Licenciado en Análisis de Sistemas Informáticos y Desarrollador Full Stack con conocimiento en HTML, CSS, JS, PHP, SQL, Laravel, React, Express, NodeJS, MySQL, PostgreSQL, MongoDB, Git y GitHub. Cuento con capacidad para trabajar en equipo , empatía, adaptabilidad y resolución de problemas. Actualmente me encuentro interesado en continuar desarrollando mi carrera dentro del área IT, busco poner en práctica mi conocimiento como desarrollador.</p>
+<p align="left">Licenciado en Análisis de Sistemas Informáticos y Desarrollador Full Stack. Actualmente me encuentro interesado en continuar desarrollando mi carrera dentro del área IT, busco poner en práctica mi conocimiento como desarrollador.</p>
 
 ###
 
