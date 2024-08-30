@@ -4,9 +4,17 @@ import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
+import Laravel from "./icons/Laravel.astro"
+import PostgreSQL from "./icons/PostgreSQL.astro"
+import React from "./icons/React.astro"
+import NodeJS from "./icons/NodeJS.astro"
+import Express from "./icons/Express.astro"
+import MongoDB from "./icons/MongoDB.astro"
+import Arduino from "./icons/Arduino.astro"
+import Python from "./icons/Python.astro"
 
 const TAGS = {
-  NEXT: {
+  /* NEXT: {
     name: "Next.js",
     class: "bg-black text-white",
     icon: NextJS,
@@ -15,25 +23,74 @@ const TAGS = {
     name: "Tailwind CSS",
     class: "bg-[#003159] text-white",
     icon: Tailwind,
+  }, */
+  LARAVEL: {
+    name: "Laravel",
+    class: "bg-red-950 text-white",
+    icon: Laravel,
+  },
+  POSTGRESQL: {
+    name: "PostgreSQL",
+    class: "bg-blue-800 text-white",
+    icon: PostgreSQL,
+  },
+  REACT: {
+    name: "React",
+    class: "bg-blue-600 text-white",
+    icon: React,
+  },
+  NODEJS: {
+    name: "Node.js",
+    class: "bg-green-900 text-white",
+    icon: NodeJS,
+  },
+  EXPRESS: {
+    name: "Express",
+    class: "bg-black text-white",
+    icon: Express,
+  },
+  MONGODB: {
+    name: "MongoDB",
+    class: "bg-green-800 text-white",
+    icon: MongoDB,
+  },
+  ARDUINO: {
+    name: "Arduino",
+    class: "bg-blue-950 text-white",
+    icon: Arduino,
+  },
+  PYTHON: {
+    name: "Python",
+    class: "bg-yellow-600 text-black",
+    icon: Python,
   },
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "Parking Control - Sistema de control de estacionamiento para una Universidad",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Sistema para control de estacionamiento de una Universidad. Creado con Laravel, PostgreSQL, Arduino, Módulo RFID y Python.",
+    link: "https://parking-control-production.up.railway.app/",
+    github: "https://github.com/Mitsuhiro32/parking-control",
+    image: "/projects/parking_control.webp",
+    tags: [TAGS.LARAVEL, TAGS.POSTGRESQL, TAGS.ARDUINO, TAGS.PYTHON],
   },
   {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+    title: "Control de gastos e ingresos - Aplicación para seguimiento de gastos e ingresos",
     description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Aplicación web para llevar un control de gastos e ingresos. Creado con el stack MERN (MongoDB, Express, React y Node.js).",
+    image: "/projects/control_gasto_ingreso.webp",
+    github: "https://github.com/Mitsuhiro32/control-gastos-ingresos",
+    tags: [TAGS.REACT, TAGS.NODEJS, TAGS.EXPRESS, TAGS.MONGODB],
+  },
+  {
+    title: "Project Manager - Aplicación de seguimiento de tareas tipo Kanban",
+    description:
+      "Aplicación web para llevar un control de tareas. Creado con el stack MERN (MongoDB, Express, React y Node.js).",
+    image: "/projects/project_manager.webp",
+    link: "https://task-manager-mitsuhiro32.vercel.app/",
+    github: "https://github.com/Mitsuhiro32/task-manager",
+    tags: [TAGS.REACT, TAGS.NODEJS, TAGS.EXPRESS, TAGS.MONGODB],
   },
 ]
 ---
@@ -44,7 +101,7 @@ const PROJECTS = [
     <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
   <div class="w-full md:w-1/2">
     <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
-      <img alt="Recién llegado vs 5 años en Nueva Zelanda" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+      <img alt="Proyecto" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
     </div>
   </div>
 
@@ -71,14 +128,13 @@ const PROJECTS = [
           {github && (
             <LinkButton href={github}>
               <GitHub class="size-6" />
-              Code
-              
+              GitHub
             </LinkButton>
           )}
           {link && (
             <LinkButton href={link}>
               <Link class="size-4" />
-              Preview
+              Sitio web
             </LinkButton>
           )}
         </footer>
