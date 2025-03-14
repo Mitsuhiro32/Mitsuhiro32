@@ -15,6 +15,7 @@ import MongoDBIcon from "./icons/MongoDB.astro";
 import MySQLIcon from "./icons/MySQL.astro";
 import GitIcon from "./icons/Git.astro";
 import VisualStudioCodeIcon from "./icons/VisualStudioCode.astro";
+import DockerIcon from "./icons/Docker.astro";
 
 enum TechnologyType {
   Frontend = 1,
@@ -106,7 +107,13 @@ const TECHNOLOGIES = [
     icon: VisualStudioCodeIcon,
     colorClasses: 'bg-blue-500 dark:bg-blue-500/40',
     type: TechnologyType.Other
-  }
+  },
+  {
+    name: 'Docker',
+    icon: DockerIcon,
+    colorClasses: 'bg-blue-500 dark:bg-blue-500/40',
+    type: TechnologyType.Other
+  },
   /* {
     name: "Tailwind",
     icon: TailwindIcon,
