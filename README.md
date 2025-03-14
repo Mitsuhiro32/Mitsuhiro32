@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Licenciado en Análisis de Sistemas Informáticos y Desarrollador Full Stack. Actualmente me encuentro interesado en continuar desarrollando mi carrera dentro del área IT, busco poner en práctica mi conocimiento como desarrollador.</p>
+<p align="left">Licenciado en Análisis de Sistemas Informáticos y Desarrollador Full Stack.</p>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,php,laravel,react,nodejs,express,bootstrap,postgres,mongodb,mysql,git,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,php,laravel,react,nodejs,express,bootstrap,postgres,mongodb,mysql,git,vscode,docker)](https://skillicons.dev)
 
 ###
 
