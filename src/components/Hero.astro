@@ -1,11 +1,11 @@
 ---
-const personalImageAlt = "Renato Hirakawa"
-import Badge from "@/components/Badge.astro"
-import LinkedInIcon from "@/components/icons/LinkedIn.astro"
-import MailIcon from "@/components/icons/Mail.astro"
-import SocialPill from "@/components/SocialPill.astro"
-import GitHubIcon from "@/components/icons/GitHub.astro"
-import CVdownload from "@/components/icons/CVdownload.astro"
+const personalImageAlt = "Renato Hirakawa";
+import Badge from "@/components/Badge.astro";
+import LinkedInIcon from "@/components/icons/LinkedIn.astro";
+import MailIcon from "@/components/icons/Mail.astro";
+import SocialPill from "@/components/SocialPill.astro";
+import GitHubIcon from "@/components/icons/GitHub.astro";
+import CVdownload from "@/components/icons/CVdownload.astro";
 ---
 
 <div class="max-w-xl">
@@ -15,13 +15,21 @@ import CVdownload from "@/components/icons/CVdownload.astro"
       src="/renato.png"
       alt={personalImageAlt}
     />
-    <a
+    <!-- <a
       href="https://linkedin.com/in/renatohirakawa"
       target="_blank"
       rel="noopener"
       class="flex items-center transition md:justify-center md:hover:scale-105"
     >
       <Badge>Disponible para trabajar</Badge>
+    </a> -->
+    <a
+      href="https://linkedin.com/in/renatohirakawa"
+      target="_blank"
+      rel="noopener"
+      class="flex items-center transition md:justify-center md:hover:scale-105"
+    >
+      <Badge>Desarrollador Backend</Badge>
     </a>
   </div>
   <h1
@@ -32,10 +40,15 @@ import CVdownload from "@/components/icons/CVdownload.astro"
   <p
     class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
   >
-    <strong>Licenciado en Análisis de Sistemas Informáticos y Desarrollador Full Stack.</strong>
+    <strong
+      >Licenciado en Análisis de Sistemas Informáticos y Desarrollador Backend.</strong
+    >
   </p>
   <nav class="flex flex-wrap gap-4 mt-8">
-    <SocialPill href="/CV_RenatoMitsuhiroHirakawaEiwa.pdf" download="CV_RenatoMitsuhiroHirakawaEiwa.pdf">
+    <SocialPill
+      href="/CV_RenatoMitsuhiroHirakawaEiwa.pdf"
+      download="CV_RenatoMitsuhiroHirakawaEiwa.pdf"
+    >
       <CVdownload class="size-4" />
       CV
     </SocialPill>

@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Licenciado en Análisis de Sistemas Informáticos y Desarrollador Full Stack.</p>
+<p align="left">Licenciado en Análisis de Sistemas Informáticos y Desarrollador Backend.</p>
 
 ###
 
